@@ -1,0 +1,13 @@
+@import "@app/assets/styles/gMixin.scss";
+
+.card {
+  height: 10vh;
+  width: 10dvw;
+  border-radius: 5px;
+  background-color: skyblue;
+  @include flexCentered;
+  cursor: grab;
+}
+.card:active {
+  cursor: grabbing;
+}

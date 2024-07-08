@@ -1,0 +1,22 @@
+.card-container-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5px;
+}
+p {
+  all: unset;
+}
+.card-container-title button {
+  all: unset;
+  font-size: 20px;
+  font-weight: 700;
+}
+.card-container-title button:hover {
+  cursor: pointer;
+}
+.open {
+  transform: rotate(-90deg);
+}
+.close {
+  transform: rotate(90deg);
+}
