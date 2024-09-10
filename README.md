@@ -1,2 +1,1 @@
-Notification panel and Policy declaration panel is rendered conditionally based on "this.props.declarationPanel → Boolean value" if user clicks the Transparency declaration button then "this.props.declarationPanel"  become true, then Declaration panel will be rendered instead of Notification panel. If user goes back or click on "this.props.declarationPanel"  become false, then Notification panel will be rendered instead of Declaration panel.
-Transparency Declaration button is rendered only if the country is Germany.
+Readmemd
